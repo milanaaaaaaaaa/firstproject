@@ -1,0 +1,165 @@
+*{
+	box-sizing: border-box;
+}
+.menu{
+background-color: #45015d;
+width: 15%;
+height: 100%;
+padding:10px 20px;
+position: fixed;
+top: 0;
+left: 0;
+}
+.menu h3{
+	color: white;
+    
+}
+body{
+	font-size: 16px;
+	line-height: 1.5;
+	font-family:"Poppins",sans-serif;
+}
+.menu a{
+	color: white;
+	text-decoration: none;
+	display: block;
+	padding: 8px 16px;
+}
+body,h3{
+	margin: 0;
+	padding: 0;
+}
+.menu a:hover{
+	color: black;
+	background-color: white;
+}
+.main{
+	width: 80%;
+	display: inline-block;
+	margin-left: 15%;
+    padding-left: 50px;
+}
+hr{
+	width: 100%;
+	border: 5px solid #45015d;
+	border-radius: 5px;
+	background-color: #45015d;
+	margin: 20px 0;
+}
+.img img{
+    width: 45%;
+    border-radius: 6px;
+    margin: 5px;
+    opacity: 0.7;
+}
+.img img:hover{
+	opacity: 1;
+}
+#services{
+	text-align: justify;
+}
+#designers p{
+	text-align: justify;
+}
+h4{
+	color: gray;
+}
+.member{
+	width: 100%;
+}
+.member img{
+	border-radius: 12px;
+	width: 100%;
+
+}
+.workers{
+	border-radius: 5px;
+	padding: 3px 15px 5px;
+	background-color: #E0E0E0;
+}
+.members{
+	display: inline-block;
+	width: 30%;
+}
+ul,li{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+ul{
+	background-color: #E0E0E0;
+	width: 40%;
+	display: inline-block;
+	margin: 4%;
+	border-radius: 12px;
+}
+li{
+	padding: 20px 0;
+	text-align: center;
+	border-radius: 12px;
+	border-bottom: 3px solid #C8C8C8;
+}
+.basic{
+	background-color: purple;
+}
+.pro{
+	background-color: #f44336;
+}
+li:first-child{
+	color: white;
+	padding: 30px 0;
+	font-size: 22px;
+}
+span{
+	font-weight: 900;
+	font-size: 22px;
+}
+.bbasic{
+	background-color: purple;
+	color: white;
+	border: none;
+	padding: 10px 25px;
+	border-radius: 8px;
+	font-size: 22px;
+}
+.bbasic:hover{
+	background-color: white;
+	color: black;
+}
+.bpro{
+	background-color: #f44336 ;
+	color: white;
+	border: none;
+	padding: 10px 25px;
+	border-radius: 8px;
+	font-size: 22px;
+}
+.bpro:hover{
+	background-color: white;
+	color: black;
+}
+.icontact{
+	display: inline-block;
+	width: 100%;
+	padding: 9px;
+	outline: none;
+	font-size: 15px;  
+}
+.bcontact{
+	border: none;
+	color: white;
+	background-color:#45015d;
+	border-radius: 8px;
+	padding: 10px 25px; 
+	font-size: 15px;
+	width: 100%;
+}
+.bcontact:hover{
+	color: black;
+	background-color: white;
+}
+.podval{
+	text-align: right;
+	padding: 30px 50px 30px;
+
+}
